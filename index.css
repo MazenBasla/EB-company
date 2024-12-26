@@ -1,0 +1,99 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+body{
+background-color: #111;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+height: 100vh;
+}
+
+.css1 span{
+border-radius: 50%;
+background-color: white;
+color: #111;
+padding: 5px 10px;
+
+}
+
+.css1{
+font-weight: bold;
+position: absolute;
+top: 10px;
+left: 20px;
+
+}
+
+.css2{
+top: 10px;
+right: 20px;
+position: absolute;
+gap: 20px;
+display: flex;
+justify-content: space-between;
+}
+
+.css2 a{
+color: #c0c0c0;
+font-weight: bold;
+text-decoration:none ;
+}
+
+.css3{
+color: #bbb;
+font-size: 1.2em;
+margin-bottom: 20px;
+}
+
+.css5{
+padding: 20px;
+flex: 1;
+}
+
+.css5 h1{
+font-size: 2.5em;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.css5 p{
+font-size: 1em;
+color: #ddd;
+margin-bottom: 20px;
+
+}
+
+.css5 button{
+padding: 10px 20px;
+background-color: #fff;
+color: #111;
+font-weight: bold;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+}
+
+.css5 button:hover{
+background-color: #ddd;
+}
+
+img{
+max-width: 50%;
+height: auto;
+align-self: flex-end;
+}
+
+.contanier{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 80%;
+gap: 20px;
+height: 100%;
+}

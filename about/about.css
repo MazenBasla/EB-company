@@ -1,0 +1,111 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.header{
+text-align: center;
+padding: 60px 20px;
+background-color: #26263a;
+color: white;
+}
+
+body{
+    background-color: #b2b2c7;
+line-height: 1.6;
+}
+
+.header h1{
+font-size: 36px;
+}
+
+.header p{
+font-size: 18px;
+max-width: 600px;
+margin: 20px auto;
+}
+
+.mission-vision{
+background-color: #e7e7f0;
+display: flex;
+justify-content: space-around;
+padding: 60px 20px;
+
+}
+
+.mission-vision h2{
+color: #26263a;
+font-size: 28px;
+margin-bottom: 10px;
+
+}
+
+.vision, .mission{
+flex: 1;
+padding: 20px;
+max-width: 400px;
+
+}
+
+.mission-vision p{
+color: grey;
+}
+
+.Team{
+text-align: center;
+padding: 60px 20px;
+background-color: #e7e7f0;
+}
+
+.Team h2{
+font-size: 28px;
+color: #26263a;
+margin-bottom: 30px;
+}
+
+.Team{
+padding: 40px 20px;
+text-align: center;
+}
+
+.Team h2{
+font-size: 24px;
+margin-bottom: 20px;
+color: #26263a;
+}
+
+.Team-GRID{
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.team-member{
+background-color: #d0d0d8;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+padding: 20px;
+text-align: center;
+width: 250px;
+}
+
+.team-member h3{
+font-size: 18px;
+margin: 10px 0px 5px;
+color:#26263a;
+}
+
+.team-member p{
+size: 14px;
+color: #69696d;
+}
+
+.footer{
+font-size: 1.1em;
+background-color:#26263a;
+color: #dcdce7;
+text-align: center;
+padding: 20px 0;
+
+}
